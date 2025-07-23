@@ -73,8 +73,8 @@ Movie Recommendation System/
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/movie-recommendation-system.git
-   cd movie-recommendation-system
+   git clone (https://github.com/praveen3308S/Codsoft-Task-4.git)
+   cd Codsoft-Task-4
    ```
 
 2. **Create Virtual Environment**
