@@ -1,0 +1,302 @@
+# Movie Recommendation System .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+movie-env/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# celery beat schedule file
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Streamlit
+.streamlit/
+
+# Model and Data files (large files that shouldn't be in git)
+Files/*.pkl
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+
+# Large CSV files (consider using Git LFS if needed)
+Files/*.csv
+*.csv
+
+# API Keys and Secrets (IMPORTANT!)
+config.py
+secrets.py
+.secrets
+api_keys.txt
+*.key
+.env*
+
+# User data and logs
+test_user_data/
+user_data/
+logs/
+*.log
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+
+# Cache directories
+.cache/
+cache/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Windows specific
+*.lnk
+
+# macOS specific
+.AppleDouble
+.LSOverride
+
+# Linux specific
+*~
+
+# Application specific
+# Streamlit cache
+.streamlit/
+
+# Movie recommendation specific
+movie_posters/
+downloaded_images/
+cached_data/
+
+# Runtime files
+*.pid
+*.lock
+
+# Documentation build
+docs/_build/
+docs/build/
+
+# Local configuration overrides
+local_config.py
+local_settings.py
+
+# Database files (if any)
+*.db
+*.sqlite
+*.sqlite3
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Media files (if storing locally)
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.svg
+
+# Node.js (if using any frontend tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Package files
+*.deb
+*.rpm
+*.msi
+*.dmg
+*.pkg
+
+# Profiling data
+*.prof
+
+# Memory dumps
+*.dmp
+
+# Core dumps
+core.*
+
+# Application logs
+application.log
+error.log
+debug.log
+
+# Performance monitoring
+*.perf
+
+# Local development overrides
+override.py
+local.py
+dev_settings.py
+
+# Experimental files
+experiment/
+experiments/
+sandbox/
+test_scripts/
+
+# Generated documentation
+*.pdf
+*.docx
+*.doc
+
+# Backup directories
+backup/
+backups/
+old/
+
+# Version control
+.git/
+.gitattributes
+
+# Deployment files
+deploy/
+deployment/
+docker-compose.override.yml
+
+# Security files
+*.pem
+*.crt
+*.csr
+*.key
+*.p12
+*.pfx
+
+# Configuration files with sensitive data
+production.ini
+staging.ini
+development.ini
+
+# Local overrides
+local/
